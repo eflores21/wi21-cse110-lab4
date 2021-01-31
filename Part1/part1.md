@@ -66,9 +66,11 @@
 16. Explain the difference between the == and === operators.
     1.  === is strict equalit,does not do conversion when checking different data types
 17. From the code snippet below, explain what gets printed and why.  (This should be in your part1.md
-    1.  How are you? gets printed because 2 == true does not evaluate to true, but (2) does.
-18. Was not able to finish before due date, did not want to lose 25% of grade on late points.
-19.  What is the output of this code? (This should be in your part1.md)
+    1.  How are you? gets printed because 2 == true does not evaluate to true as 2 != 1, but (2) does return true.
+18. see part1-question18.js
+19. First, newArr will make an empty array, then the for loop will iterate from i = 0 to i < 3. for each iteration, we will call the function do something with the ith entry of the array and the function(x) which returns x * 2, then we will push the result into our newArr. doSomething calls the function(x) with x = the ith entry of the array plus two. So for the first iteration it will call function(1+2) which will return 3*2 = 6. 6 is then pushed into the array to be returned. Following this for the next two elements from our input array we get the values 8 and 10. So our final result is the array [6,8,10].   
+21. see part1-question20.js
+22.  What is the output of this code? (This should be in your part1.md)
      1.   1 
      2.   4
      3.   3
